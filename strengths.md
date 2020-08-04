@@ -14,4 +14,17 @@ I took the CliftonStrengths Assessment test on March 2020 and would like to shar
   
 * **5. Self-Assurance**: People who are especially talented in the Self-Assurance theme feel confident in their ability to manage their own lives. They possess an inner compass that gives them confidence that their decisions are right.
 
+## Supporting Strengths
+
 * **6. Command**: People who are especially talented in the Command theme have presence. They can take control of a situation and make decisions.
+
+* **7. Empathy**: People who are especially talented in the Empathy theme can sense the feelings of other people by
+imagining themselves in others’ lives or others’ situations.
+* **8. Adaptability**: People who are especially talented in the Adaptability theme prefer to “go with the flow.” They tend to
+be “now” people who take things as they come and discover the future one day at a time.
+* **9. Relator**: People who are especially talented in the Relator theme enjoy close relationships with others. They
+find deep satisfaction in working hard with friends to achieve a goal.
+* **10. Activator**: People who are especially talented in the Activator theme can make things happen by turning
+thoughts into action. They are often impatient. 
+
+## Rest of the theme sequence
