@@ -2,10 +2,9 @@
 <br>
 <p>I took the CliftonStrengths Assessment test on March 2020 and would like to share with you.</p>
 <br>
-<br>
 <h3>Main Strengths</h3>
 <div>
-<p><strong>1.Maximizer</h3><strong></p>
+<p><strong>1.Maximizer<strong></p>
 <p>People who are especially talented in the Maximizer theme focus on strengths as a way to stimulate personal and group excellence. They seek to transform something strong into something superb.</p>
 </div>
 <br>
