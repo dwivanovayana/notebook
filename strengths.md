@@ -67,4 +67,16 @@ Out of these values emerges a defined purpose for their life.
 * **27. Achiever**: People who are especially talented in the Achiever theme have a great deal of stamina and work
 hard. They take great satisfaction from being busy and productive.
 * **28. Strategic**: People who are especially talented in the Strategic theme create alternative ways to proceed. Faced
-with any given scenario, they can quickly spot the relevant patterns and issues. 
+with any given scenario, they can quickly spot the relevant patterns and issues.
+* **29. Harmony**: People who are especially talented in the Harmony theme look for consensus. They don’t enjoy
+conflict; rather, they seek areas of agreement.
+* **30. Input**: People who are especially talented in the Input theme have a craving to know more. Often they like to
+collect and archive all kinds of information.
+* **31. Restorative**: People who are especially talented in the Restorative theme are adept at dealing with problems. They
+are good at figuring out what is wrong and resolving it.
+* **32. Intellection**: People who are especially talented in the Intellection theme are characterized by their intellectual
+activity. They are introspective and appreciate intellectual discussions.
+* **33. Context**: People who are especially talented in the Context theme enjoy thinking about the past. They
+understand the present by researching its history.
+* **34. Competition**: People who are especially talented in the Competition theme measure their progress against the
+performance of others. They strive to win first place and revel in contests. 
