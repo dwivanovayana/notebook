@@ -15,32 +15,32 @@ Sqlite3 to PostgreSQL on pre-existing Rails App
 
 3. open `config/database.yml`
     - Remove
-    ```
-    default: &default
-      adapter: sqlite3
-      pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
-      timeout: 5000
+        ```
+        default: &default
+          adapter: sqlite3
+          pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+          timeout: 5000
 
-    development:
-      <<: *default
-      database: db/development.sqlite3
+        development:
+          <<: *default
+          database: db/development.sqlite3
 
-    # Warning: The database defined as "test" will be erased and
-    # re-generated from your development database when you run "rake".
-    # Do not set this db to the same as development or production.
-    test:
-      <<: *default
-      database: db/test.sqlite3
+        # Warning: The database defined as "test" will be erased and
+        # re-generated from your development database when you run "rake".
+        # Do not set this db to the same as development or production.
+        test:
+          <<: *default
+          database: db/test.sqlite3
 
-    production:
-      <<: *default
-      database: db/production.sqlite3
-      ```
+        production:
+          <<: *default
+          database: db/production.sqlite3
+        ```
 
 
     - Replace this:
       You will also need to change the `database: to a custom name`
-       ```
+        ```
         default: &default
           adapter: postgresql
           pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
@@ -48,18 +48,18 @@ Sqlite3 to PostgreSQL on pre-existing Rails App
 
         development:
           <<: *default
-          database: drop-me-a-line-test_development
+          database: your-app-development
 
         # Warning: The database defined as "test" will be erased and
         # re-generated from your development database when you run "rake".
         # Do not set this db to the same as development or production.
         test:
           <<: *default
-          database: drop-me-a-line-test
+          database: your-app-test
 
         production:
           <<: *default
-          database: drop-me-a-line-production
+          database: your-app-production
         ```
   
   4. run `rails db:create db:migrate`
