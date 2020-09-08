@@ -66,7 +66,7 @@ Sqlite3 to PostgreSQL on pre-existing Rails App
   
   5. run `git a . && gc -m 'change database from Sqlite3 to PostgreSQL`
   
-  6. git push origin master
+  6. run `git push origin master`
   
      if you get this error message:
      ```
