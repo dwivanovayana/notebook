@@ -70,7 +70,7 @@ __Rails 6.0.3.2_**
   
   6. run `git push origin master`
   
-     - if you get this error message:
+     - if you get this error message (if not continue to step number 7):
      
        ```ruby
        To github.com:your-github-name/your-repository-name.git
