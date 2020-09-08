@@ -17,27 +17,27 @@ __Rails 6.0.3.2_**
 3. open `config/database.yml`
    - Remove
    
-   ```ruby
-   default: &default
-     adapter: sqlite3
-     pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
-     timeout: 5000
+     ```ruby
+     default: &default
+       adapter: sqlite3
+       pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+       timeout: 5000
 
-   development:
-     <<: *default
-     database: db/development.sqlite3
+     development:
+       <<: *default
+       database: db/development.sqlite3
 
-   # Warning: The database defined as "test" will be erased and
-   # re-generated from your development database when you run "rake".
-   # Do not set this db to the same as development or production.
-   test:
-     <<: *default
-     database: db/test.sqlite3
+     # Warning: The database defined as "test" will be erased and
+     # re-generated from your development database when you run "rake".
+     # Do not set this db to the same as development or production.
+     test:
+       <<: *default
+       database: db/test.sqlite3
 
-   production:
-     <<: *default
-     database: db/production.sqlite3
-   ```
+     production:
+       <<: *default
+       database: db/production.sqlite3
+     ```
    
    - Replace this:\
      **You will also need to change the** `database: to a custom name`
