@@ -1,4 +1,4 @@
-# HEROKU
+# Heroku for Rails App
 
 Deploy to heroku
 ----------------
