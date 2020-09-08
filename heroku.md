@@ -7,8 +7,10 @@ Deploy to heroku
 Sqlite3 to PostgreSQL on pre-existing Rails App
 -----------------------------------------------
 
-1. Open Gemfile and replace `gem 'sqlite3'` to `gem 'pg'`
+1. open Gemfile
+...replace `gem 'sqlite3'`
+...to `gem 'pg'`
 
 2. run `bundle install`
 
-3.
+3. open `config/database.yml`
