@@ -38,8 +38,8 @@ Sqlite3 to PostgreSQL on pre-existing Rails App
         ```
 
 
-    - Replace this:
-      You will also need to change the `database: to a custom name`
+    - Replace this:\
+      **You will also need to change the** `database: to a custom name`
         ```
         default: &default
           adapter: postgresql
