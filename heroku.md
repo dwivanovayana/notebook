@@ -8,8 +8,8 @@ Sqlite3 to PostgreSQL on pre-existing Rails App
 -----------------------------------------------
 
 1. open Gemfile
-...replace `gem 'sqlite3'`
-...to `gem 'pg'`
+    - replace `gem 'sqlite3'`
+    - to `gem 'pg'`
 
 2. run `bundle install`
 
