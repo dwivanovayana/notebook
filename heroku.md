@@ -70,20 +70,21 @@ Sqlite3 to PostgreSQL on pre-existing Rails App
   6. run `git push origin master`
   
      - if you get this error message:
-     ```
-     To github.com:your-github-name/your-repository-name.git
-     ! [rejected]        master -> master (fetch first)
-     error: failed to push some refs to 'git@github.com:your-github-name/your-repository-name.git'
-     hint: Updates were rejected because the remote contains work that you do
-     hint: not have locally. This is usually caused by another repository pushing
-     hint: to the same ref. You may want to first integrate the remote changes
-     hint: (e.g., 'git pull ...') before pushing again.
-     hint: See the 'Note about fast-forwards' in 'git push --help' for details.
-     ```
+     
+         ```
+         To github.com:your-github-name/your-repository-name.git
+         ! [rejected]        master -> master (fetch first)
+         error: failed to push some refs to 'git@github.com:your-github-name/your-repository-name.git'
+         hint: Updates were rejected because the remote contains work that you do
+         hint: not have locally. This is usually caused by another repository pushing
+         hint: to the same ref. You may want to first integrate the remote changes
+         hint: (e.g., 'git pull ...') before pushing again.
+         hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+         ```
      - run `git pull origin master`
      - then `git push origin master`
      
-   7. run ```heroku addons:create heroku-postgresql```
+   7. run `heroku addons:create heroku-postgresql`
    
    8. run `git push heroku master`
    
