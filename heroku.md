@@ -69,7 +69,7 @@ Sqlite3 to PostgreSQL on pre-existing Rails App
   
   6. run `git push origin master`
   
-     if you get this error message:
+     - if you get this error message:
      ```
      To github.com:your-github-name/your-repository-name.git
      ! [rejected]        master -> master (fetch first)
@@ -80,8 +80,8 @@ Sqlite3 to PostgreSQL on pre-existing Rails App
      hint: (e.g., 'git pull ...') before pushing again.
      hint: See the 'Note about fast-forwards' in 'git push --help' for details.
      ```
-     run `git pull origin master`
-     then `git push origin master`
+     - run `git pull origin master`
+     - then `git push origin master`
      
    7. run ```heroku addons:create heroku-postgresql```
    
