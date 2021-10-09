@@ -1,0 +1,9 @@
+## Renew iOS Distribution
+
+1. Go to keychain and create new certificate
+    - Keychain Access > Certificate Assistant > Request a certificate > Add email > Save to disk
+    - Save certificate in Login section
+2. Go to Apple Developer
+3. Certificate > + > iOS Distribution (App Store and Ad Hoc) > Upload certificate > Download > Double click in the browser > It will automatically add it to Keychain
+4. Profile > Type: App Store > Edit > Choose the latest certificate in the bottom > Save
+5. Xcode > Signing & Capabilities > Provisioning Profile
